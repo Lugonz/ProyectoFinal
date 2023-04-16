@@ -208,7 +208,6 @@ main .textos .formularioMensaje {
         /* propiedades para alinear en eje vertical y horizontal*/
         justify-content: center;
         /*align-items: center;*/
-
     }
 
     /* estilos de los hijos */
@@ -232,11 +231,124 @@ main .textos .formularioMensaje {
         height: 532px;
         /*background-color: aqua;*/
         background-image: url(../img/wikipedia.jpg);
+        margin: 0px; 
+    }
+
+    .contenedor_dos_diseno {
+        height: 100%;
+        background-color:  rgb(162, 162, 162);
+        display: flex;
+        /* dirección de los hijos, flex direction, viene preestablecida en row*/
+        flex-direction: row;
+        /* separar columnas y filas*/
+        gap: 0px;
+        /*propiedad pasra que los hijos colapsen*/
+        flex-wrap: wrap;
+        /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
+        /* propiedades para alinear en eje vertical y horizontal*/
+        justify-content: center;
+        /*align-items: center;*/
+    }
+
+
+    .hijos_tres_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        /*background-color: aqua;*/
+        background-image: url(../img/momento_yogurt.jpg);
+        margin: 0px; 
+    }
+    
+    .hijos_cuatro_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        /*background-color: aqua;*/
+        background-image: url(../img/uber_recycler.jpg);
         margin: 0px;
-        
     }
 
     .textos_diseno {
         list-style: none;
         color: white;
     }
+
+         /*propiedades del contenedor ARTE */
+
+         .contenedor_uno_arte {
+            height: 100%;
+            background-color:  rgb(162, 162, 162);
+            display: flex;
+            /* dirección de los hijos, flex direction, viene preestablecida en row*/
+            flex-direction: row;
+            /* separar columnas y filas*/
+            gap: 0px;
+            /*propiedad pasra que los hijos colapsen*/
+            flex-wrap: wrap;
+            /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
+            /* propiedades para alinear en eje vertical y horizontal*/
+            justify-content: center;
+            /*align-items: center;*/
+    
+        }
+    
+        /* estilos de los hijos */
+        .hijos_uno_arte {
+            font-size: 20px;    
+            font-weight: 200;
+            color: rgb(0, 0, 0);
+            width: 660px;
+            height: 532px;
+            /*background-color: aqua;*/
+            background-image: url(../img/emociones_abstractas.jpg);
+            margin: 0px;
+             
+        }
+        
+        .hijos_dos_arte {
+            font-size: 20px;    
+            font-weight: 200;
+            color: rgb(0, 0, 0);
+            width: 660px;
+            height: 532px;
+            /*background-color: aqua;*/
+            background-image: url(../img/universidades_venezuela.jpg);
+            margin: 0px;
+            
+        }
+    
+        .hijos_tres_arte {
+            font-size: 20px;    
+            font-weight: 200;
+            color: rgb(0, 0, 0);
+            width: 660px;
+            height: 532px;
+            /*background-color: aqua;*/
+            background-image: url(../img/oleo_uno.jpg);
+            margin: 0px;
+             
+        }
+        
+        .hijos_cuatro_arte {
+            font-size: 20px;    
+            font-weight: 200;
+            color: rgb(0, 0, 0);
+            width: 660px;
+            height: 532px;
+            /*background-color: aqua;*/
+            background-image: url(../img/oleo_dos.jpg);
+            margin: 0px;
+            
+        }
+
+        .textos_arte {
+            list-style: none;
+            color: blueviolet;
+        }
+
+    
