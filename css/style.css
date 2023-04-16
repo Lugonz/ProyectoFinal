@@ -92,7 +92,7 @@ main .bloquedos {
 
 main .imagenref {
     display: inline;  
-    padding: 30%;
+    /* padding: 30%; este padding rompe el footer ojo*/
     border: 100px 100px 100px 100px;
 }
 
