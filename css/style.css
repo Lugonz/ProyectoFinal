@@ -273,6 +273,45 @@ main .textos .formularioMensaje {
         margin: 0px;
     }
 
+    .contenedor_tres_diseno {
+        height: 100%;
+        background-color:  rgb(162, 162, 162);
+        display: flex;
+        /* dirección de los hijos, flex direction, viene preestablecida en row*/
+        flex-direction: row;
+        /* separar columnas y filas*/
+        gap: 0px;
+        /*propiedad pasra que los hijos colapsen*/
+        flex-wrap: wrap;
+        /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
+        /* propiedades para alinear en eje vertical y horizontal*/
+        justify-content: center;
+        /*align-items: center;*/
+    }
+
+
+    .hijos_cinco_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        /*background-color: aqua;*/
+        background-image: url(../img/banco_agrario.jpg);
+        margin: 0px; 
+    }
+    
+    .hijos_seis_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        /*background-color: aqua;*/
+        background-image: url(../img/wespu.jpg);
+        margin: 0px;
+    }
+
     .textos_diseno {
         list-style: none;
         color: white;
