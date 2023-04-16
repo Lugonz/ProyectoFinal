@@ -157,24 +157,26 @@ main .textos .formularioMensaje {
     
     }
 
-
-
-    /*propiedades del contenedor */
+/*propiedades del contenedor */
 
     .contenedor_uno_home {
+        height: 100%;
         background-color: tomato;
         display: flex;
-
         /* dirección de los hijos, flex direction, viene preestablecida en row*/
-        flex-direction: column;
-
+        flex-direction: row;
         /* separar columnas y filas*/
         gap: 10px;
+
+        /*propiedad pasra que los hijos colapsen*/
+        flex-wrap: wrap;
+
+        /* propiedades para alinear en eje vertical y horizontal*/
+
 
     }
 
     /* estilos de los hijos */
-
     .hijos_uno_home {
         width: 150px;
         height: 150px;
