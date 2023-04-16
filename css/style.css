@@ -150,6 +150,7 @@ main .textos .formularioMensaje {
 
     footer{
     background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     height: 80px;
     padding: 16px 24px 16px 24px;
