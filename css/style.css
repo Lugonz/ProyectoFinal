@@ -455,7 +455,7 @@ footer {
                 font-weight: 200;
                 color: rgb(0, 0, 0);
                 width: 660px;
-                height: 532px;
+                height: 250px;
                 background-color:rgb(162, 162, 162);
                 margin: 0px;
             }
@@ -507,4 +507,10 @@ footer {
                 height: 100px;
                 background-color:  rgb(162, 162, 162);
                 margin: 0px; 
+            }
+
+            .titlulo_formulario {
+                width: 200px;
+                height: 10px;
+                margin: 30px 140px;
             }
