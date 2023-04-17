@@ -8,49 +8,10 @@
 }
 
 /*estilos generales */
-html{
+html {
     font-family: 'Inter', sans-serif;
     background-color:  rgb(162, 162, 162);
 }
-
-/*estilos del header*/
-header {
-    background-color: rgb(130, 130, 130);
-    height: 120px;
-    padding: 32px;
-}
-
-header .titulos {
-    list-style: none;
-    color: rgb(153, 255, 22);
-    font-size: 20px;
-    font-weight: 400;
-    width: 160px;
-    height: 30px;
-    margin: 8px;
-    padding: 10px; 
-    text-align: center;
-}
-
-header .caja {
-    list-style: none;
-    color: rgb(120, 241, 201);
-    font-size: 16px;    
-    font-weight: 300;
-    width: 50px;
-    height: 30px;
-    margin: 8px;
-    padding: 10px;
-    display: inline;
-}
-
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
 
 /*estilos del main*/
 
