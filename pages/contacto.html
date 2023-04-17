@@ -36,6 +36,8 @@
             <h2>Contacto</h2>
         </div>
 
+        <!--Contenedor de información para contacto-->
+
         <div class="contenedor_uno_contacto">
                 
             <div class="hijos_uno_contacto">
@@ -51,30 +53,38 @@
             </div>
         </div>
 
-
-
         <!--Formulario de contacto-->
-            <form class="textos">
+
+    <form>
+
+        <div class="contenedor_dos_contacto">
                 
-                <fieldset class="formularioNombre">
+            <div class="hijos_tres_contacto">
+                <fieldset>
                     <legend>Nombre*</legend>
                     <div>
                         <label for="nombre">Completa tu nombre</label>
                         <input type="text" name="" id="nombre">
                     </div>
+                </fieldset>
+            </div>
+            
+        <div class="hijos_tres_contacto">
+                    <fieldset>
+                        <legend>Ingresa el asunto de tu mensaje*</legend>
+                        <div>
+                            <label for="asunto">Asunto
+                            </label>
+                            <input type="text" name="" id="asunto">
+                        </div>
+                    </fieldset>
+            </div>
+        </div>
+
+        <div class="contenedor_tres_contacto">
                 
-                </fieldset>
-
-                <fieldset class="formularioAsunto">
-                    <legend>Ingresa el asunto de tu mensaje*</legend>
-                    <div>
-                        <label for="asunto">Asunto
-                        </label>
-                        <input type="text" name="" id="asunto">
-                    </div>
-                </fieldset>
-
-                <fieldset class="formularioCanales">
+            <div class="hijos_tres_contacto">
+                <fieldset>
                     <legend>Canales de contacto*</legend>
                     <div>
                         <label for="email">Completa tu email
@@ -88,8 +98,11 @@
                         <input type="number" name="" id="telefono">
                     </div>
                 </fieldset>
-
-                <fieldset class="formularioMensaje">
+            </div>
+            
+        <div class="hijos_tres_contacto">
+            <div class="textos_contacto">
+                <fieldset>
                     <legend>Déjanos tu consulta*</legend>
                     <div>
                         <label for="mensaje">Ingresa tu mensaje
@@ -97,16 +110,19 @@
                         <input type="text" name="" id="mensaje">
                     </div>
                 </fieldset>
-
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-
                 </div>
+            </div>
+        </div>
 
-            </form>
+
+        <div>
+                <input type="submit">
+                <input type="reset">
+        </div>
+
+    </form>
     
-        </main>
+    </main>
 
 
     <footer>
