@@ -82,6 +82,8 @@ main .bloqueuno {
 
 }
 
+/*Propiedades del Footer*/
+
 footer {
     background-color: rgb(130, 130, 130);
     color: rgb(255, 255, 255);
@@ -393,6 +395,7 @@ footer {
                 /*align-items: center;*/
             }
         
+
             /* estilos de los hijos */
             .hijos_uno_servicios {
                 font-size: 20px;    
@@ -400,7 +403,6 @@ footer {
                 color: rgb(0, 0, 0);
                 width: 430px;
                 height: 532px;
-                /*background-color: aqua;*/
                 background-image: url(../img/servicios.jpg);
                 margin: 0px; 
             }
@@ -409,8 +411,8 @@ footer {
                 font-size: 20px;    
                 font-weight: 200;
                 color: rgb(0, 0, 0);
-                width: 660px;
-                height: 532px;
+                width: 60%;
+                height: 150px;
                 background-color:rgb(162, 162, 162);
                 margin: 0px;
             }
@@ -418,6 +420,7 @@ footer {
             .textos_servicios {
                 list-style: none;
                 color: rgb(0, 0, 0);
+                text-align: inherit;
             }
 
             /*propiedades del contenedor CONTACTO */
@@ -480,7 +483,7 @@ footer {
                 height: 100%;
                 background-color:  rgb(162, 162, 162);
                 display: flex;
-                /* dirección de los hijos, flex direction, viene preestablecida en row*/
+                /* dirección de los hijos, flex direction, viene preestablecida en row*/ 
                 flex-direction: row;
                 /* separar columnas y filas*/
                 gap: 0px;
