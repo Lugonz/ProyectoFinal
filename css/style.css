@@ -64,7 +64,7 @@ main {
 /*h2*/
 main .subtitulos {
     display: inline;
-    color: rgb( 114, 153, 255);
+    color: rgb(255, 255, 255);
     font-size: 26px;    
     font-weight: 300;
     border: 50px;
@@ -264,7 +264,7 @@ footer {
         color: white;
     }
 
-         /*propiedades del contenedor ARTE */
+    /*propiedades del contenedor ARTE */
 
          .contenedor_uno_arte {
             height: 100%;
@@ -377,7 +377,7 @@ footer {
                 color: rgb(0, 0, 0);
             }
 
-            /*propiedades del contenedor SERVICIOS PROFESIONALES */
+    /*propiedades del contenedor SERVICIOS PROFESIONALES */
 
             .contenedor_uno_servicios {
                 height: 100%;
@@ -423,7 +423,7 @@ footer {
                 text-align: inherit;
             }
 
-            /*propiedades del contenedor CONTACTO */
+    /*propiedades del contenedor CONTACTO */
 
             .contenedor_uno_contacto {
                 height: 100%;
@@ -498,6 +498,7 @@ footer {
             .textos_contacto {
                 list-style: none;
                 color: rgb(0, 0, 0);
+                text-align: inherit;
             }
 
             /* estilos de los hijos */
