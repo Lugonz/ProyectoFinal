@@ -82,66 +82,12 @@ main .bloqueuno {
 
 }
 
-
-main .imagenref {
-    display: inline;  
-    /* padding: 30%; este padding rompe el footer ojo*/
-    border: 50px;
-}
-
-main .imagenhome {
-    display: inline;  
-    border: 50px;
-
-}
-
-main .textos .formularioNombre {
-    display: inline;
-    color: rgb(0, 0, 0);
-    font-size: 20px;    
-    font-weight: 200;
-    padding: 5px 10px;
-    border: 50px;
-
-}
-
-main .textos .formularioAsunto {
-    display: inline;
-    color: rgb(0, 0, 0);
-    font-size: 20px;    
-    font-weight: 200;
-    padding: 5px 10px;
-    border: 50px;
-
-}
-
-main .textos .formularioCanales {
-    display: inline;
-    color: rgb(0, 0, 0);
-    font-size: 20px;    
-    font-weight: 200;
-    padding: 5px 10px;
-    border: 50px;
-
-}
-
-main .textos .formularioMensaje {
-    display: inline;
-    color: rgb(0, 0, 0);
-    font-size: 20px;    
-    font-weight: 200;
-    padding: 5px 10px;
-    border: 50px;
-
-}
-
 footer {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(130, 130, 130);
     color: rgb(255, 255, 255);
     font-size: 16px;
     height: 80px;
     padding: 8px 12px;
-    
 }
 
     /*propiedades del contenedor HOME */
@@ -160,7 +106,6 @@ footer {
         /* propiedades para alinear en eje vertical y horizontal*/
         justify-content: center;
         /*align-items: center;*/
-
     }
 
     /* estilos de los hijos */
