@@ -17,7 +17,7 @@ html{
 header {
     background-color: rgb(130, 130, 130);
     height: 120px;
-    padding: 32px; 
+    padding: 32px;
 }
 
 header .titulos {
@@ -62,14 +62,24 @@ main {
 
 
 /*h2*/
-main .subtitulos {
-    display: inline;
+.subtitulos {
+    width: 100%;
+    height: 50px;
+    text-align: justify;
     color: rgb(255, 255, 255);
     font-size: 26px;    
     font-weight: 300;
     border: 50px;
-    padding: 5px 10px;
-    
+    margin: 30px 30px;
+}
+
+.subtitulos2 {
+    width: 550px;
+    height: 300px;
+    font-size: 50px;
+    font-weight: 800;
+    border: 50px;
+    padding: 20px 20px;
 }
 
 main .bloqueuno {
@@ -117,7 +127,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/diseno_uno.jpg);
         margin: 0px;
          
@@ -129,14 +138,19 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/arte.jpg);
         margin: 0px;
         
     }
 
     .textos {
+        
         list-style: none;
+        text-align: inherit;
+        font-weight: 200;
+        border: 50px;
+        padding: 10px 10px;
+        font-size: 20px;
     }
 
      /*propiedades del contenedor DISEÑO */
@@ -164,7 +178,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/fureru_app.jpg);
         margin: 0px;
          
@@ -176,7 +189,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/wikipedia.jpg);
         margin: 0px; 
     }
@@ -204,7 +216,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/momento_yogurt.jpg);
         margin: 0px; 
     }
@@ -215,7 +226,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/uber_recycler.jpg);
         margin: 0px;
     }
@@ -243,7 +253,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/banco_agrario.jpg);
         margin: 0px; 
     }
@@ -254,7 +263,6 @@ footer {
         color: rgb(0, 0, 0);
         width: 660px;
         height: 532px;
-        /*background-color: aqua;*/
         background-image: url(../img/wespu.jpg);
         margin: 0px;
     }
@@ -289,7 +297,6 @@ footer {
             color: rgb(0, 0, 0);
             width: 660px;
             height: 532px;
-            /*background-color: aqua;*/
             background-image: url(../img/emociones_abstractas.jpg);
             margin: 0px; 
         }
@@ -300,7 +307,6 @@ footer {
             color: rgb(0, 0, 0);
             width: 660px;
             height: 532px;
-            /*background-color: aqua;*/
             background-image: url(../img/universidades_venezuela.jpg);
             margin: 0px;
         }
@@ -311,7 +317,6 @@ footer {
             color: rgb(0, 0, 0);
             width: 660px;
             height: 532px;
-            /*background-color: aqua;*/
             background-image: url(../img/oleo_uno.jpg);
             margin: 0px;
         }
@@ -322,14 +327,13 @@ footer {
             color: rgb(0, 0, 0);
             width: 660px;
             height: 532px;
-            /*background-color: aqua;*/
             background-image: url(../img/oleo_dos.jpg);
             margin: 0px;
         }
 
         .textos_arte {
             list-style: none;
-            color: blueviolet;
+            color: rgb(90, 115, 185);
         }
 
              /*propiedades del contenedor SOBRE MI */
@@ -341,13 +345,13 @@ footer {
                 /* dirección de los hijos, flex direction, viene preestablecida en row*/
                 flex-direction: row;
                 /* separar columnas y filas*/
-                gap: 0px;
+                gap: 40px;
                 /*propiedad pasra que los hijos colapsen*/
                 flex-wrap: wrap;
                 /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
                 /* propiedades para alinear en eje vertical y horizontal*/
-                justify-content: center;
-                /*align-items: center;*/
+                justify-content:first baseline;
+                align-items: center;
             }
         
             /* estilos de los hijos */
@@ -357,7 +361,6 @@ footer {
                 color: rgb(0, 0, 0);
                 width: 430px;
                 height: 532px;
-                /*background-color: aqua;*/
                 background-image: url(../img/sobreMi.jpg);
                 margin: 0px;    
             }
@@ -366,8 +369,8 @@ footer {
                 font-size: 20px;    
                 font-weight: 200;
                 color: rgb(0, 0, 0);
-                width: 660px;
-                height: 532px;
+                width: 40%;
+                height: 150px;
                 background-color:rgb(162, 162, 162);
                 margin: 0px;
             }
@@ -375,6 +378,7 @@ footer {
             .textos_sobremi {
                 list-style: none;
                 color: rgb(0, 0, 0);
+                text-align: inherit;
             }
 
     /*propiedades del contenedor SERVICIOS PROFESIONALES */
@@ -386,13 +390,13 @@ footer {
                 /* dirección de los hijos, flex direction, viene preestablecida en row*/
                 flex-direction: row;
                 /* separar columnas y filas*/
-                gap: 0px;
+                gap: 40px;
                 /*propiedad pasra que los hijos colapsen*/
                 flex-wrap: wrap;
                 /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
                 /* propiedades para alinear en eje vertical y horizontal*/
-                justify-content: center;
-                /*align-items: center;*/
+                justify-content:first baseline;
+                align-items: center;
             }
         
 
@@ -432,13 +436,13 @@ footer {
                 /* dirección de los hijos, flex direction, viene preestablecida en row*/
                 flex-direction: row;
                 /* separar columnas y filas*/
-                gap: 0px;
+                gap: 40px;
                 /*propiedad pasra que los hijos colapsen*/
                 flex-wrap: wrap;
                 /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
                 /* propiedades para alinear en eje vertical y horizontal*/
-                justify-content: center;
-                /*align-items: center;*/
+                justify-content:first baseline;
+                align-items: center;
             }
         
             /* estilos de los hijos */
@@ -448,7 +452,6 @@ footer {
                 color: rgb(0, 0, 0);
                 width: 430px;
                 height: 532px;
-                /*background-color: aqua;*/
                 background-image: url(../img/contacto.jpg);
                 margin: 0px; 
             }
@@ -470,13 +473,13 @@ footer {
                 /* dirección de los hijos, flex direction, viene preestablecida en row*/
                 flex-direction: row;
                 /* separar columnas y filas*/
-                gap: 0px;
+                gap: 24px;
                 /*propiedad pasra que los hijos colapsen*/
                 flex-wrap: wrap;
                 /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
                 /* propiedades para alinear en eje vertical y horizontal*/
                 justify-content: center;
-                /*align-items: center;*/
+                align-items: center;
             }
 
             .contenedor_tres_contacto {
@@ -486,13 +489,13 @@ footer {
                 /* dirección de los hijos, flex direction, viene preestablecida en row*/ 
                 flex-direction: row;
                 /* separar columnas y filas*/
-                gap: 0px;
+                gap: 24px;
                 /*propiedad pasra que los hijos colapsen*/
                 flex-wrap: wrap;
                 /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
                 /* propiedades para alinear en eje vertical y horizontal*/
                 justify-content: center;
-                /*align-items: center;*/
+                align-items: center;
             }
 
             .textos_contacto {
@@ -507,14 +510,14 @@ footer {
                 font-size: 20px;    
                 font-weight: 200;
                 color: rgb(0, 0, 0);
-                width: 540px;
-                height: 100px;
-                background-color:  rgb(162, 162, 162);
-                margin: 0px; 
+                width: 45%;
+                height: 150px;
             }
 
             .titlulo_formulario {
+                font-size: 20px;
                 width: 200px;
-                height: 10px;
+                height: 35px;
                 margin: 30px 140px;
+                text-align: center;
             }
