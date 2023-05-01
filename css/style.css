@@ -364,14 +364,9 @@ main .bloqueuno {
             height: 100%;
             background-color:  rgb(162, 162, 162);
             display: flex;
-            /* dirección de los hijos, flex direction, viene preestablecida en row*/
             flex-direction: row;
-            /* separar columnas y filas*/
             gap: 24px;
-            /*propiedad pasra que los hijos colapsen*/
             flex-wrap: wrap;
-            /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
-            /* propiedades para alinear en eje vertical y horizontal*/
             justify-content: center;
             align-items: center;
         }
@@ -380,14 +375,9 @@ main .bloqueuno {
             height: 100%;
             background-color:  rgb(162, 162, 162);
             display: flex;
-            /* dirección de los hijos, flex direction, viene preestablecida en row*/ 
             flex-direction: row;
-            /* separar columnas y filas*/
             gap: 24px;
-            /*propiedad pasra que los hijos colapsen*/
             flex-wrap: wrap;
-            /* propiedad para configurar de una vez el flow y el colapse flex-flow: row wrap; */
-            /* propiedades para alinear en eje vertical y horizontal*/
             justify-content: center;
             align-items: center;
         }
@@ -417,9 +407,8 @@ main .bloqueuno {
         /*Estilos del Footer*/
 
         footer {
-            height: 140px;
+            height: 150px;
             padding: 12px 12px;
-            max-height: 150px;
         }
 
         /*contenedor padre*/
