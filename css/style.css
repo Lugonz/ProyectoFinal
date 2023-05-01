@@ -44,33 +44,34 @@ footer {
   height: 180px;
   padding: 12px 12px;
   padding: 0px 0px 35px 0px; }
-  footer .contenedor_footer {
-    background-color: #212529;
-    font-size: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center; }
-    footer .contenedor_footer .elementoUno_footer {
-      font-size: 16px;
-      font-weight: 300;
-      color: white;
-      width: 330px;
-      height: 50px; }
-    footer .contenedor_footer .elementoDos_footer {
-      color: white;
-      width: 60px;
-      height: 25px; }
-    footer .contenedor_footer .elementoTres_footer {
-      color: white;
-      width: 85px;
-      height: 16px;
-      font-size: 16px;
-      font-weight: 300; }
 
-/*Estilos page Home*/
+.contenedor_footer {
+  background-color: #212529;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; }
+  .contenedor_footer .elementoUno_footer {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    width: 330px;
+    height: 50px; }
+  .contenedor_footer .elementoDos_footer {
+    color: white;
+    width: 60px;
+    height: 25px; }
+  .contenedor_footer .elementoTres_footer {
+    color: white;
+    width: 85px;
+    height: 16px;
+    font-size: 16px;
+    font-weight: 300; }
+
+/*Etilos page Home*/
 .contenedor_uno_home {
   height: 100%;
   background-color: #a2a2a2;
@@ -104,7 +105,7 @@ footer {
     padding: 10px 10px;
     font-size: 20px; }
 
-/*Estilos page DISEÑO*/
+/*Etilos page DISEÑO*/
 .contenedor_uno_diseno {
   height: 100%;
   background-color: #a2a2a2;
