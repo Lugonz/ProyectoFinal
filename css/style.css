@@ -208,3 +208,118 @@ footer {
   .contenedor_uno_arte .textos_arte {
     list-style: none;
     color: #5a73b9; }
+
+/*Estilos page SOBRE MI*/
+.contenedor_uno_sobremi {
+  height: 100%;
+  background-color: #a2a2a2;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-items: center; }
+  .contenedor_uno_sobremi .hijos_uno_sobremi {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 430px;
+    height: 532px;
+    background-image: url(../img/sobreMi.jpg);
+    margin: 0px; }
+  .contenedor_uno_sobremi .hijos_dos_sobremi {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 600px;
+    height: 350px;
+    background-color: #a2a2a2;
+    margin: 0px; }
+  .contenedor_uno_sobremi .textos_sobremi {
+    list-style: none;
+    color: black;
+    text-align: inherit; }
+
+/*Estilos page SERVICIOS PROFESIONALES*/
+.contenedor_uno_servicios {
+  height: 100%;
+  background-color: #a2a2a2;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-items: center; }
+  .contenedor_uno_servicios .hijos_uno_servicios {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 430px;
+    height: 532px;
+    background-image: url(../img/servicios.jpg);
+    margin: 0px; }
+  .contenedor_uno_servicios .hijos_dos_servicios {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 600px;
+    height: 350px;
+    background-color: #a2a2a2;
+    margin: 0px; }
+  .contenedor_uno_servicios .textos_servicios {
+    list-style: none;
+    color: black;
+    text-align: inherit; }
+
+/*Estilos page CONTACTO*/
+.contenedor_uno_contacto {
+  height: 100%;
+  background-color: #a2a2a2;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-items: center; }
+  .contenedor_uno_contacto .hijos_uno_contacto {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 430px;
+    height: 532px;
+    background-image: url(../img/contacto.jpg);
+    margin: 0px; }
+  .contenedor_uno_contacto .hijos_dos_contacto {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 660px;
+    height: 400px;
+    background-color: #a2a2a2;
+    margin: 0px; }
+
+.contenedor_dos_contacto {
+  height: 100%;
+  background-color: #a2a2a2;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .contenedor_dos_contacto .textos_contacto {
+    list-style: none;
+    color: black;
+    text-align: inherit; }
+  .contenedor_dos_contacto .hijos_tres_contacto {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 45%;
+    height: 150px; }
+  .contenedor_dos_contacto .titlulo_formulario {
+    font-size: 20px;
+    width: 200px;
+    height: 35px;
+    margin: 20px 140px;
+    text-align: center; }
