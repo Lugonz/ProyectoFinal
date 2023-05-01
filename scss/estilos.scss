@@ -7,15 +7,20 @@
     box-sizing: border-box;
 }
 
+//Archivos secundarios sass//
+@import "utilidades/extend";
+@import "utilidades/mixin";
+@import "utilidades/variables";
+
 /*Estilos*/
 /*Los estilos dek Header son importados de bootstrap*/
 
 /*Estilos generales*/
 html {
     font-family: 'Inter', sans-serif;
-    background-color:  rgb(162, 162, 162);
+
     body {
-        background-color:  rgb(162, 162, 162);
+        background-color:  $color-fondo;
         height: 100%;
         width: 100%;
     }
@@ -23,7 +28,7 @@ html {
         width: 50%;
         height: 60px;
         text-align: justify;
-        color: rgb(255, 255, 255);
+        color: $color-subtitulos;
         font-size: 18px;    
         font-weight: 300;
         border: 50px;
@@ -39,7 +44,7 @@ html {
     }
     main .bloqueuno {
         display: inline;
-        color: rgb(0, 0, 0);
+        color: $color-subtitulos;
         font-size: 20px;    
         font-weight: 200;
         padding: 5px 10px;
@@ -55,7 +60,7 @@ footer{
     padding: 0px 0px 35px 0px;
 }
 .contenedor_footer {
-       background-color: #212529;
+       background-color: $color-hf;
        font-size: 10px;
        display: flex;
        flex-direction: row;
@@ -66,17 +71,17 @@ footer{
        .elementoUno_footer {
            font-size: 16px;    
            font-weight: 300;
-           color: rgb(255, 255, 255);
+           color: $color-textoclaro;
            width: 330px;
            height: 50px;
        }
        .elementoDos_footer {
-           color: rgb(255, 255, 255);
+           color: $color-textoclaro;
            width: 60px;
            height: 25px;
        }
        .elementoTres_footer {   
-           color: rgb(255, 255, 255);
+           color: $color-textoclaro;
            width: 85px;
            height: 16px; 
            font-size: 16px;    
@@ -87,7 +92,7 @@ footer{
 
 .contenedor_uno_home {
    height: 100%;
-   background-color:  rgb(162, 162, 162);
+   background-color:  $color-fondo;
    display: flex;
    flex-direction: row;
    gap: 0px;
@@ -97,7 +102,7 @@ footer{
    .hijos_uno_home {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/diseno_uno.jpg);
@@ -106,7 +111,7 @@ footer{
    .hijos_dos_home {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/arte.jpg);
@@ -126,7 +131,7 @@ footer{
 
 .contenedor_uno_diseno {
    height: 100%;
-   background-color:  rgb(162, 162, 162);
+   background-color: $color-fondo;
    display: flex;
    flex-direction: row;
    gap: 0px;
@@ -135,7 +140,7 @@ footer{
    .hijos_uno_diseno {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/fureru_app.jpg);
@@ -144,7 +149,7 @@ footer{
    .hijos_dos_diseno {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/wikipedia.jpg);
@@ -153,7 +158,7 @@ footer{
    .hijos_tres_diseno {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/momento_yogurt.jpg);
@@ -162,7 +167,7 @@ footer{
    .hijos_cuatro_diseno {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/uber_recycler.jpg);
@@ -171,7 +176,7 @@ footer{
    .hijos_cinco_diseno {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/banco_agrario.jpg);
@@ -180,7 +185,7 @@ footer{
    .hijos_seis_diseno {
        font-size: 20px;    
        font-weight: 200;
-       color: rgb(0, 0, 0);
+       color: $color-portafolio;
        width: 660px;
        height: 532px;
        background-image: url(../img/wespu.jpg);
@@ -188,7 +193,7 @@ footer{
    }
    .textos_diseno {
        list-style: none;
-       color: white;
+       color: $color-hf;
    }
 }
 
@@ -196,7 +201,7 @@ footer{
 
 .contenedor_uno_arte {
     height: 100%;
-    background-color:  rgb(162, 162, 162);
+    background-color:  $color-fondo;
     display: flex;
     flex-direction: row;
     gap: 0px;
@@ -204,7 +209,7 @@ footer{
     .hijos_uno_arte {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 660px;
         height: 532px;
         background-image: url(../img/emociones_abstractas.jpg);
@@ -213,7 +218,7 @@ footer{
     .hijos_dos_arte {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 660px;
         height: 532px;
         background-image: url(../img/universidades_venezuela.jpg);
@@ -222,7 +227,7 @@ footer{
     .hijos_tres_arte {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 660px;
         height: 532px;
         background-image: url(../img/oleo_uno.jpg);
@@ -231,23 +236,23 @@ footer{
     .hijos_cuatro_arte {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 660px;
         height: 532px;
         background-image: url(../img/oleo_dos.jpg);
         margin: 0px;
     }
-    .textos_arte {
-        list-style: none;
-        color: rgb(90, 115, 185);
-    }
+}
+.textos_arte {
+    list-style: none;
+    color: $color-portafolio;
 }
 
 /*Estilos page SOBRE MI*/
 
 .contenedor_uno_sobremi {
     height: 100%;
-    background-color:  rgb(162, 162, 162);
+    background-color:  $color-fondo;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -257,7 +262,7 @@ footer{
     .hijos_uno_sobremi {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 430px;
         height: 532px;
         background-image: url(../img/sobreMi.jpg);
@@ -266,15 +271,15 @@ footer{
     .hijos_dos_sobremi {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 600px;
         height: 350px;
-        background-color:rgb(162, 162, 162);
+        background-color: $color-fondo;
         margin: 0px;
     }
     .textos_sobremi {
         list-style: none;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         text-align: inherit;
     }
 }
@@ -283,7 +288,7 @@ footer{
 
 .contenedor_uno_servicios {
     height: 100%;
-    background-color:  rgb(162, 162, 162);
+    background-color: $color-fondo;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -293,7 +298,7 @@ footer{
     .hijos_uno_servicios {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 430px;
         height: 532px;
         background-image: url(../img/servicios.jpg);
@@ -302,15 +307,15 @@ footer{
     .hijos_dos_servicios {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 600px;
         height: 350px;
-        background-color:rgb(162, 162, 162);
+        background-color: $color-fondo;
         margin: 0px;
     }
     .textos_servicios {
         list-style: none;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         text-align: inherit;
     }
 }
@@ -319,7 +324,7 @@ footer{
 
 .contenedor_uno_contacto {
     height: 100%;
-    background-color:  rgb(162, 162, 162);
+    background-color: $color-fondo;
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -329,7 +334,7 @@ footer{
     .hijos_uno_contacto {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 430px;
         height: 532px;
         background-image: url(../img/contacto.jpg);
@@ -338,17 +343,17 @@ footer{
     .hijos_dos_contacto {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 660px;
         height: 400px;
-        background-color:rgb(162, 162, 162);
+        background-color: $color-fondo;
         margin: 0px;
     }
 }
 
 .contenedor_dos_contacto {
     height: 100%;
-    background-color:  rgb(162, 162, 162);
+    background-color: $color-fondo;
     display: flex;
     flex-direction: row;
     gap: 24px;
@@ -357,13 +362,13 @@ footer{
     align-items: center;
     .textos_contacto {
         list-style: none;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         text-align: inherit;
     }
     .hijos_tres_contacto {
         font-size: 20px;    
         font-weight: 200;
-        color: rgb(0, 0, 0);
+        color: $color-portafolio;
         width: 45%;
         height: 150px;
     }
@@ -375,3 +380,6 @@ footer{
     text-align: center;
     }
 }
+
+
+

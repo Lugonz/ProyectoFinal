@@ -9,8 +9,7 @@
 /*Los estilos dek Header son importados de bootstrap*/
 /*Estilos generales*/
 html {
-  font-family: 'Inter', sans-serif;
-  background-color: #a2a2a2; }
+  font-family: 'Inter', sans-serif; }
   html body {
     background-color: #a2a2a2;
     height: 100%;
@@ -19,7 +18,7 @@ html {
     width: 50%;
     height: 60px;
     text-align: justify;
-    color: white;
+    color: #3e3e4b;
     font-size: 18px;
     font-weight: 300;
     border: 50px;
@@ -33,7 +32,7 @@ html {
     padding: 20px 20px; }
   html main .bloqueuno {
     display: inline;
-    color: black;
+    color: #3e3e4b;
     font-size: 20px;
     font-weight: 200;
     padding: 5px 10px;
@@ -84,7 +83,7 @@ footer {
   .contenedor_uno_home .hijos_uno_home {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/diseno_uno.jpg);
@@ -92,7 +91,7 @@ footer {
   .contenedor_uno_home .hijos_dos_home {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/arte.jpg);
@@ -117,7 +116,7 @@ footer {
   .contenedor_uno_diseno .hijos_uno_diseno {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/fureru_app.jpg);
@@ -125,7 +124,7 @@ footer {
   .contenedor_uno_diseno .hijos_dos_diseno {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/wikipedia.jpg);
@@ -133,7 +132,7 @@ footer {
   .contenedor_uno_diseno .hijos_tres_diseno {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/momento_yogurt.jpg);
@@ -141,7 +140,7 @@ footer {
   .contenedor_uno_diseno .hijos_cuatro_diseno {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/uber_recycler.jpg);
@@ -149,7 +148,7 @@ footer {
   .contenedor_uno_diseno .hijos_cinco_diseno {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/banco_agrario.jpg);
@@ -157,14 +156,14 @@ footer {
   .contenedor_uno_diseno .hijos_seis_diseno {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/wespu.jpg);
     margin: 0px; }
   .contenedor_uno_diseno .textos_diseno {
     list-style: none;
-    color: white; }
+    color: #212529; }
 
 /*Estilos page ARTE*/
 .contenedor_uno_arte {
@@ -177,7 +176,7 @@ footer {
   .contenedor_uno_arte .hijos_uno_arte {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/emociones_abstractas.jpg);
@@ -185,7 +184,7 @@ footer {
   .contenedor_uno_arte .hijos_dos_arte {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/universidades_venezuela.jpg);
@@ -193,7 +192,7 @@ footer {
   .contenedor_uno_arte .hijos_tres_arte {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/oleo_uno.jpg);
@@ -201,14 +200,15 @@ footer {
   .contenedor_uno_arte .hijos_cuatro_arte {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 532px;
     background-image: url(../img/oleo_dos.jpg);
     margin: 0px; }
-  .contenedor_uno_arte .textos_arte {
-    list-style: none;
-    color: #5a73b9; }
+
+.textos_arte {
+  list-style: none;
+  color: #121113; }
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
@@ -223,7 +223,7 @@ footer {
   .contenedor_uno_sobremi .hijos_uno_sobremi {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 430px;
     height: 532px;
     background-image: url(../img/sobreMi.jpg);
@@ -231,14 +231,14 @@ footer {
   .contenedor_uno_sobremi .hijos_dos_sobremi {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 600px;
     height: 350px;
     background-color: #a2a2a2;
     margin: 0px; }
   .contenedor_uno_sobremi .textos_sobremi {
     list-style: none;
-    color: black;
+    color: #121113;
     text-align: inherit; }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
@@ -254,7 +254,7 @@ footer {
   .contenedor_uno_servicios .hijos_uno_servicios {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 430px;
     height: 532px;
     background-image: url(../img/servicios.jpg);
@@ -262,14 +262,14 @@ footer {
   .contenedor_uno_servicios .hijos_dos_servicios {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 600px;
     height: 350px;
     background-color: #a2a2a2;
     margin: 0px; }
   .contenedor_uno_servicios .textos_servicios {
     list-style: none;
-    color: black;
+    color: #121113;
     text-align: inherit; }
 
 /*Estilos page CONTACTO*/
@@ -285,7 +285,7 @@ footer {
   .contenedor_uno_contacto .hijos_uno_contacto {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 430px;
     height: 532px;
     background-image: url(../img/contacto.jpg);
@@ -293,7 +293,7 @@ footer {
   .contenedor_uno_contacto .hijos_dos_contacto {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 660px;
     height: 400px;
     background-color: #a2a2a2;
@@ -310,12 +310,12 @@ footer {
   align-items: center; }
   .contenedor_dos_contacto .textos_contacto {
     list-style: none;
-    color: black;
+    color: #121113;
     text-align: inherit; }
   .contenedor_dos_contacto .hijos_tres_contacto {
     font-size: 20px;
     font-weight: 200;
-    color: black;
+    color: #121113;
     width: 45%;
     height: 150px; }
   .contenedor_dos_contacto .titlulo_formulario {
