@@ -1,9 +1,247 @@
-h1{
-    background-color: aquamarine;
+//Documento principal SASS//
+
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2{
-    background-color: blue;
+/*Estilos*/
+/*Los estilos dek Header son importados de bootstrap*/
+
+/*Estilos generales*/
+html {
+    font-family: 'Inter', sans-serif;
+    background-color:  rgb(162, 162, 162);
+    body {
+        background-color:  rgb(162, 162, 162);
+        height: 100%;
+        width: 100%;
+    }
+    .subtitulos {
+        width: 50%;
+        height: 60px;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        font-size: 18px;    
+        font-weight: 300;
+        border: 50px;
+        margin: 30px 30px;
+    }
+    .subtitulos2 {
+        width: 100%;
+        height: 100px;
+        font-size: 25px;
+        font-weight: 600;
+        border: 30px;
+        padding: 20px 20px;
+    }
+    main .bloqueuno {
+        display: inline;
+        color: rgb(0, 0, 0);
+        font-size: 20px;    
+        font-weight: 200;
+        padding: 5px 10px;
+        border: 50px;
+    }
 }
+
+/*Estilos Footer*/
+footer{
+    height: 180px;
+    padding: 12px 12px;
+    padding: 0px 0px 35px 0px;
+    .contenedor_footer {
+        background-color: #212529;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        .elementoUno_footer {
+            font-size: 16px;    
+            font-weight: 300;
+            color: rgb(255, 255, 255);
+            width: 330px;
+            height: 50px;
+        }
+        .elementoDos_footer {
+            color: rgb(255, 255, 255);
+            width: 60px;
+            height: 25px;
+        }
+        .elementoTres_footer {   
+            color: rgb(255, 255, 255);
+            width: 85px;
+            height: 16px; 
+            font-size: 16px;    
+            font-weight: 300;
+        }
+    }
+}
+
+/*Estilos page Home*/
+
+.contenedor_uno_home {
+    height: 100%;
+    background-color:  rgb(162, 162, 162);
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* estilos de los hijos */
+    .hijos_uno_home {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/diseno_uno.jpg);
+        margin: 0px;
+    }
+    .hijos_dos_home {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/arte.jpg);
+        margin: 0px;
+    }
+    .textos {
+        list-style: none;
+        text-align: inherit;
+        font-weight: 200;
+        border: 50px;
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+}
+
+/*Estilos page DISEÑO*/
+
+.contenedor_uno_diseno {
+    height: 100%;
+    background-color:  rgb(162, 162, 162);
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    .hijos_uno_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/fureru_app.jpg);
+        margin: 0px;
+    }  
+    .hijos_dos_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/wikipedia.jpg);
+        margin: 0px; 
+    }
+    .hijos_tres_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/momento_yogurt.jpg);
+        margin: 0px; 
+    }
+    .hijos_cuatro_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/uber_recycler.jpg);
+        margin: 0px;
+    }
+    .hijos_cinco_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/banco_agrario.jpg);
+        margin: 0px; 
+    }
+    .hijos_seis_diseno {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/wespu.jpg);
+        margin: 0px;
+    }
+    .textos_diseno {
+        list-style: none;
+        color: white;
+    }
+}
+
+/*Estilos page ARTE*/
+
+.contenedor_uno_arte {
+    height: 100%;
+    background-color:  rgb(162, 162, 162);
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    flex-wrap: wrap;
+    .hijos_uno_arte {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/emociones_abstractas.jpg);
+        margin: 0px; 
+    }
+    .hijos_dos_arte {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/universidades_venezuela.jpg);
+        margin: 0px;
+    }
+    .hijos_tres_arte {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/oleo_uno.jpg);
+        margin: 0px;
+    }
+    .hijos_cuatro_arte {
+        font-size: 20px;    
+        font-weight: 200;
+        color: rgb(0, 0, 0);
+        width: 660px;
+        height: 532px;
+        background-image: url(../img/oleo_dos.jpg);
+        margin: 0px;
+    }
+    .textos_arte {
+        list-style: none;
+        color: rgb(90, 115, 185);
+    }
+}
+
 
 
