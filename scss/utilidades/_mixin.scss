@@ -1,0 +1,28 @@
+
+//Mixin para contenedores//
+
+@mixin contenedores ($height, $background-color, $display, $flex-direction,$gap, $flex-wrap, $justify-content)
+{
+    height: $height;
+    background-color: $background-color;
+    display: $display;
+    flex-direction: $flex-direction;
+    gap: $gap;
+    flex-wrap: $wrap;
+    justify-content: $justify-content;
+}
+
+//Mixin para hijos de contenedores//
+
+@mixin hijos ($font-size, $font-weight, $color, $width, $height, $background-image, $margin) 
+{
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    width: $width;
+    height: $height;
+    background-image: $background-image;
+    margin: $margin;
+}
+
+
