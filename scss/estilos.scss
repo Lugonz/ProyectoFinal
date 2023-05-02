@@ -8,10 +8,9 @@
 }
 
 //Archivos secundarios sass//
-@import "utilidades/extend";
-@import "utilidades/mixin";
-@import "utilidades/variables";
-@import "../scss/utilidades/mixin";
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+@import "..utilidades/variables";
 
 /*Estilos*/
 /*Los estilos dek Header son importados de bootstrap*/
@@ -88,7 +87,6 @@ footer{
 /*Etilos page Home*/
 
 .contenedor_uno_home {
-
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
 
    /* estilos de los hijos */
@@ -99,7 +97,7 @@ footer{
    .hijos_dos_home {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/arte.jpg), 0px); 
    }
-   
+
    .textos {
        list-style: none;
        text-align: inherit;
@@ -113,7 +111,6 @@ footer{
 /*Etilos page DISEÑO*/
 
 .contenedor_uno_diseno {
-
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
    .hijos_uno_diseno {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/fureru_app.jpg), 0px); 
@@ -140,7 +137,6 @@ footer{
 }
 
 /*Estilos page ARTE*/
-
 .contenedor_uno_arte {
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
 
@@ -164,7 +160,6 @@ footer{
 }
 
 /*Estilos page SOBRE MI*/
-
 .contenedor_uno_sobremi {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
@@ -182,7 +177,6 @@ footer{
 }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
-
 .contenedor_uno_servicios {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
@@ -200,7 +194,6 @@ footer{
 }
 
 /*Estilos page CONTACTO*/
-
 .contenedor_uno_contacto {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
@@ -221,18 +214,17 @@ footer{
         text-align: inherit;
     }
     .hijos_tres_contacto {
-        font-size: 20px;    
-        font-weight: 200;
+        @extend %formulario;
         color: $color-portafolio;
         width: 45%;
         height: 150px;
     }
     .titlulo_formulario {
-    font-size: 20px;
-    width: 200px;
-    height: 35px;
-    margin: 20px 140px;
-    text-align: center;
-    }
+        @extend %formulario;;
+        width: 200px;
+        height: 35px;
+        margin: 20px 140px;
+        text-align: center;
+        }
 }
 
