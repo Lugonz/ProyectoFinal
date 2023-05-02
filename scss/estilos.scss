@@ -95,9 +95,11 @@ footer{
    .hijos_uno_home {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/diseno_uno.jpg), 0px); 
    }
+
    .hijos_dos_home {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/arte.jpg), 0px); 
    }
+   
    .textos {
        list-style: none;
        text-align: inherit;
