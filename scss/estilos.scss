@@ -51,7 +51,7 @@ body {
 /*Estilos Footer*/
 
 footer{
-    height: 180px;
+    height: 170px;
     padding: 12px 12px;
     padding: 0px 0px 35px 0px;
 }
@@ -85,6 +85,7 @@ footer{
        }
 }
 /*Etilos page Home*/
+
 
 .contenedor_uno_home {
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
