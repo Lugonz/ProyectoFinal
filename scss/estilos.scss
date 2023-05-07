@@ -13,7 +13,7 @@
 @import "..utilidades/variables";
 
 /*Estilos*/
-/*Los estilos dek Header son importados de bootstrap*/
+/*Los estilos del Header son importados de bootstrap*/
 
 /*Estilos generales*/
 body {
@@ -112,7 +112,8 @@ footer{
 
 .contenedor_uno_diseno {
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
-   .hijos_uno_diseno {
+   
+    .hijos_uno_diseno {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/fureru_app.jpg), 0px); 
    }  
    .hijos_dos_diseno {
@@ -152,12 +153,13 @@ footer{
     .hijos_cuatro_arte {
         @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_dos.jpg), 0px); 
     }
+    .textos_arte {
+        list-style: none;
+        color: $color-portafolio;
+    }
 
 }
-.textos_arte {
-    list-style: none;
-    color: $color-portafolio;
-}
+
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
