@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-.contenedor_dos_contacto .hijos_tres_contacto, .contenedor_dos_contacto .titlulo_formulario {
+.contenedor_dos_contacto .hijos_tres_contacto, .contenedor_dos_contacto .titulo_formulario {
   font-size: 20px;
   font-weight: 200; }
 
@@ -24,31 +24,37 @@ body {
     font-size: 18px;
     font-weight: 300;
     border: 50px;
-    margin: 30px 30px; }
+    margin: 30px 30px;
+    font-family: 'Inter', sans-serif; }
   body .subtitulos2 {
     width: 100%;
     height: 100px;
     font-size: 25px;
     font-weight: 600;
     border: 30px;
-    padding: 20px 20px; }
+    padding: 20px 20px;
+    font-family: 'Inter', sans-serif; }
   body main .bloqueuno {
     display: inline;
     color: #3e3e4b;
     font-size: 20px;
     font-weight: 200;
     padding: 5px 10px;
-    border: 50px; }
+    border: 50px;
+    font-family: 'Inter', sans-serif; }
+  body .navbar {
+    font-family: 'Inter', sans-serif; }
 
 /*Estilos Footer*/
 footer {
   height: 170px;
   padding: 12px 12px;
-  padding: 0px 0px 35px 0px; }
+  padding: 0px 0px 35px 0px;
+  font-family: 'Inter', sans-serif; }
 
 .contenedor_footer {
   background-color: #212529;
-  font-size: 10px;
+  font-size: 16px;
   display: flex;
   flex-direction: row;
   gap: 5%;
@@ -62,6 +68,7 @@ footer {
     width: 330px;
     height: 50px; }
   .contenedor_footer .elementoDos_footer {
+    font-size: 16px;
     color: white;
     width: 60px;
     height: 25px; }
@@ -101,10 +108,10 @@ footer {
   .contenedor_uno_home .textos {
     list-style: none;
     text-align: inherit;
-    font-weight: 200;
+    font-weight: 300;
     border: 50px;
     padding: 10px 10px;
-    font-size: 20px; }
+    font-size: 25px; }
 
 /*Etilos page DISEÑO*/
 .contenedor_uno_diseno {
@@ -165,7 +172,8 @@ footer {
     margin: 0px; }
   .contenedor_uno_diseno .textos_diseno {
     list-style: none;
-    color: #121113; }
+    color: #121113;
+    font-size: 25px; }
 
 /*Estilos page ARTE*/
 .contenedor_uno_arte {
@@ -210,7 +218,8 @@ footer {
     margin: 0px; }
   .contenedor_uno_arte .textos_arte {
     list-style: none;
-    color: #121113; }
+    color: #121113;
+    font-size: 25px; }
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
@@ -241,7 +250,8 @@ footer {
   .contenedor_uno_sobremi .textos_sobremi {
     list-style: none;
     color: #121113;
-    text-align: inherit; }
+    text-align: inherit;
+    font-size: 25px; }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
 .contenedor_uno_servicios {
@@ -272,7 +282,8 @@ footer {
   .contenedor_uno_servicios .textos_servicios {
     list-style: none;
     color: #121113;
-    text-align: inherit; }
+    text-align: inherit;
+    font-size: 25px; }
 
 /*Estilos page CONTACTO*/
 .contenedor_uno_contacto {
@@ -313,13 +324,15 @@ footer {
   .contenedor_dos_contacto .textos_contacto {
     list-style: none;
     color: #121113;
-    text-align: inherit; }
+    text-align: inherit;
+    font-size: 25px; }
   .contenedor_dos_contacto .hijos_tres_contacto {
     color: #121113;
     width: 45%;
     height: 150px; }
-  .contenedor_dos_contacto .titlulo_formulario {
+  .contenedor_dos_contacto .titulo_formulario {
     width: 200px;
     height: 35px;
     margin: 20px 140px;
-    text-align: center; }
+    text-align: center;
+    font-size: 35px; }
