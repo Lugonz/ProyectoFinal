@@ -51,6 +51,8 @@ body {
     }
     .navbar {
         font-family: 'Inter', sans-serif;
+        font-size: 20px; 
+        font-weight: 200;
     }
 }
 
@@ -92,6 +94,17 @@ footer{
            font-weight: 300;
        }
 }
+
+@media screen and (min-width: 360px) and (max-width: 740px){
+    footer{
+        height: 190px;
+        padding: 0px 15px 20px 15px;
+        font-family: 'Inter', sans-serif;
+    }   
+}
+
+
+
 /*Etilos page Home*/
 
 
@@ -244,4 +257,5 @@ footer{
         font-size: 35px;
         }
 }
+
 
