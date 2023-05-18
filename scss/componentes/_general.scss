@@ -183,16 +183,17 @@ footer {
 }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
+
 .contenedor_uno_servicios {
-    @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
+    @include contenedores(700px, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
 
     .hijos_uno_servicios {
-        @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/servicios.jpg), 0px);
+        @include hijos (20px, 200, $color-portafolio, 450px, 532px, url(../img/servicios.jpg), 0px);
         padding: 32px;
     }
     .hijos_dos_servicios {
-        @include hijos (20px, 200, $color-portafolio, 600px, 350px, $color-fondo, 0px);
+        @include hijos (20px, 200, $color-portafolio, 650px, 450px, $color-fondo, 0px);
         padding: 32px;
     }
     .textos_servicios {
@@ -204,6 +205,11 @@ footer {
 }
 
 /*Estilos page CONTACTO*/
+
+
+.formulario_completo .titulo_formulario .subtitulos2 {
+    padding: 50px 40px 20px 80px;
+}
 
 .contenedor_uno_contacto {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);

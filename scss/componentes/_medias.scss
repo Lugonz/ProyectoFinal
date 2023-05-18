@@ -96,32 +96,26 @@
 
         .hijos_dos_contacto {
             padding: 24px;
-            height: 500px;
+            height: 400px;
         }
     }
 }
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
     .contenedor_dos_contacto {
-        height: 360px;
-        width: 360px;
-        margin: 0 0 40px 0;
+        height: 400px;
+        width: 300px;
+        margin: 0 0 15px 0;
 
         .hijos_tres_contacto {
             height: 100px;
             width: 180px;
             box-sizing: content-box;
             padding: 0;
-
             .mensaje_form {
-                width: 200px;
-                height: 75px;
-
-                .label {
-                    width: 300px;
-                    height: 70px;
-                }
-            }
+                width: 250px;
+                height: 65px;
+            }    
         }
     }
 
