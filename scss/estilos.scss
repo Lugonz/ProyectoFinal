@@ -1,7 +1,7 @@
 //Documento principal SASS//
 
 /*Reset*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,20 +17,22 @@
 
 /*Estilos generales*/
 body {
-        background-color: $color-fondo;
-        height: 100%;
-        width: 100%;
+    background-color: $color-fondo;
+    height: 100%;
+    width: 100%;
+
     .subtitulos {
         width: 50%;
         height: 60px;
         text-align: justify;
         color: $color-subtitulos;
-        font-size: 18px;    
+        font-size: 18px;
         font-weight: 300;
         border: 50px;
         margin: 30px 30px;
         font-family: 'Inter', sans-serif;
     }
+
     .subtitulos2 {
         width: 100%;
         height: 100px;
@@ -40,18 +42,20 @@ body {
         padding: 20px 20px;
         font-family: 'Inter', sans-serif;
     }
+
     main .bloqueuno {
         display: inline;
         color: $color-subtitulos;
-        font-size: 20px;    
+        font-size: 20px;
         font-weight: 200;
         padding: 5px 10px;
         border: 50px;
         font-family: 'Inter', sans-serif;
     }
+
     .navbar {
         font-family: 'Inter', sans-serif;
-        font-size: 20px; 
+        font-size: 20px;
         font-weight: 200;
         padding: 12px;
     }
@@ -59,49 +63,53 @@ body {
 
 /*Estilos Footer*/
 
-footer{
+footer {
     height: 170px;
     padding: 12px 12px;
     padding: 0px 0px 35px 0px;
     font-family: 'Inter', sans-serif;
 }
+
 .contenedor_footer {
-       background-color: $color-hf;
-       font-size: 16px;
-       display: flex;
-       flex-direction: row;
-       gap: 5%;
-       flex-wrap: wrap;
-       align-content: center;
-       justify-content: center;
-       .elementoUno_footer {
-           font-size: 16px;    
-           font-weight: 300;
-           color: $color-textoclaro;
-           width: 330px;
-           height: 50px;
-       }
-       .elementoDos_footer {
-            font-size: 16px; 
-            color: $color-textoclaro;
-            width: 60px;
-            height: 25px;
-       }
-       .elementoTres_footer {   
-           color: $color-textoclaro;
-           width: 85px;
-           height: 16px; 
-           font-size: 16px;    
-           font-weight: 300;
-       }
+    background-color: $color-hf;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    .elementoUno_footer {
+        font-size: 16px;
+        font-weight: 300;
+        color: $color-textoclaro;
+        width: 330px;
+        height: 50px;
+    }
+
+    .elementoDos_footer {
+        font-size: 16px;
+        color: $color-textoclaro;
+        width: 60px;
+        height: 25px;
+    }
+
+    .elementoTres_footer {
+        color: $color-textoclaro;
+        width: 85px;
+        height: 16px;
+        font-size: 16px;
+        font-weight: 300;
+    }
 }
 
-@media screen and (min-width: 360px) and (max-width: 740px){
-    footer{
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    footer {
         height: 190px;
         padding: 0px 15px 20px 15px;
         font-family: 'Inter', sans-serif;
-    }   
+    }
 }
 
 
@@ -111,82 +119,93 @@ footer{
 .contenedor_uno_home {
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
 
-   /* estilos de los hijos */
-   .hijos_uno_home {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/diseno_uno.jpg), 0px); 
-   }
+    /* estilos de los hijos */
+    .hijos_uno_home {
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/diseno_uno.jpg), 0px);
+    }
 
-   .hijos_dos_home {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/arte.jpg), 0px); 
-   }
+    .hijos_dos_home {
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/arte.jpg), 0px);
+    }
 
-   .textos {
-       list-style: none;
-       text-align: inherit;
-       font-weight: 300;
-       border: 50px;
-       padding: 10px 10px;
-       font-size: 25px;
-   }
+    .textos {
+        list-style: none;
+        text-align: inherit;
+        font-weight: 300;
+        border: 50px;
+        padding: 10px 10px;
+        font-size: 25px;
+    }
 }
 
 /*Etilos page DISEÑO*/
 
 .contenedor_uno_diseno {
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
-   
-    .hijos_uno_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/fureru_app.jpg), 0px); 
-    padding: 32px;
-   }  
-   .hijos_dos_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wikipedia.jpg), 0px);
-    padding: 32px; 
-   }
-   .hijos_tres_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/momento_yogurt.jpg), 0px);
-    padding: 32px;
-   }
-   .hijos_cuatro_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/uber_recycler.jpg), 0px);
-    padding: 32px; 
-   }
-   .hijos_cinco_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/banco_agrario.jpg), 0px);
-    padding: 32px; 
-   }
-   .hijos_seis_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wespu.jpg), 0px);
-    padding: 32px; 
-   }
-   .textos_diseno {
-       list-style: none;
-       color: $color-portafolio;
-       font-size: 25px;
-       font-weight: 400;
-   }
 
-   @media screen and (min-width: 360px) and (max-width: 740px){
     .hijos_uno_diseno {
-        padding: 24px; 
-    }  
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/fureru_app.jpg), 0px);
+        padding: 32px;
+    }
+
     .hijos_dos_diseno {
-        padding: 24px; 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wikipedia.jpg), 0px);
+        padding: 32px;
     }
+
     .hijos_tres_diseno {
-        padding: 24px; 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/momento_yogurt.jpg), 0px);
+        padding: 32px;
     }
+
     .hijos_cuatro_diseno {
-        padding: 24px; 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/uber_recycler.jpg), 0px);
+        padding: 32px;
     }
+
     .hijos_cinco_diseno {
-        padding: 24px; 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/banco_agrario.jpg), 0px);
+        padding: 32px;
     }
+
     .hijos_seis_diseno {
-        padding: 24px; 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wespu.jpg), 0px);
+        padding: 32px;
     }
-    
-}
+
+    .textos_diseno {
+        list-style: none;
+        color: $color-portafolio;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+        .hijos_uno_diseno {
+            padding: 24px;
+        }
+
+        .hijos_dos_diseno {
+            padding: 24px;
+        }
+
+        .hijos_tres_diseno {
+            padding: 24px;
+        }
+
+        .hijos_cuatro_diseno {
+            padding: 24px;
+        }
+
+        .hijos_cinco_diseno {
+            padding: 24px;
+        }
+
+        .hijos_seis_diseno {
+            padding: 24px;
+        }
+
+    }
 }
 
 /*Estilos page ARTE*/
@@ -195,55 +214,65 @@ footer{
 
     .hijos_uno_arte {
         @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/emociones_abstractas.jpg), 0px);
-        padding: 32px;  
+        padding: 32px;
     }
+
     .hijos_dos_arte {
         @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/universidades_venezuela.jpg), 0px);
-        padding: 32px;  
+        padding: 32px;
     }
+
     .hijos_tres_arte {
         @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_uno.jpg), 0px);
-        padding: 32px;  
+        padding: 32px;
     }
+
     .hijos_cuatro_arte {
         @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_dos.jpg), 0px);
-        padding: 32px;  
+        padding: 32px;
     }
+
     .textos_arte {
         list-style: none;
         color: $color-portafolio;
         font-size: 25px;
         font-weight: 400;
     }
-    
-    @media screen and (min-width: 360px) and (max-width: 740px){
+
+    @media screen and (min-width: 360px) and (max-width: 740px) {
         .hijos_uno_arte {
-            padding: 24px; 
-        }  
+            padding: 24px;
+        }
+
         .hijos_dos_arte {
-            padding: 24px; 
+            padding: 24px;
         }
+
         .hijos_tres_arte {
-            padding: 24px; 
+            padding: 24px;
         }
+
         .hijos_cuatro_arte {
-            padding: 24px; 
+            padding: 24px;
         }
-    }  
+    }
 }
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
+
     .hijos_uno_sobremi {
         @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/sobreMi.jpg), 0px);
-        padding: 32px;      
+        padding: 32px;
     }
+
     .hijos_dos_sobremi {
         @include hijos (20px, 200, $color-portafolio, 600px, 350px, $color-fondo, 0px);
-        padding: 32px;   
+        padding: 32px;
     }
+
     .textos_sobremi {
         list-style: none;
         color: $color-portafolio;
@@ -252,29 +281,33 @@ footer{
         font-weight: 400;
     }
 
-    @media screen and (min-width: 360px) and (max-width: 740px){
+    @media screen and (min-width: 360px) and (max-width: 740px) {
         .hijos_uno_sobremi {
             padding: 24px;
-        }  
+        }
+
         .hijos_dos_sobremi {
             padding: 24px;
-            height: 680px; 
+            height: 680px;
         }
-    }  
+    }
 }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
 .contenedor_uno_servicios {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
+
     .hijos_uno_servicios {
         @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/servicios.jpg), 0px);
         padding: 32px;
-    }  
+    }
+
     .hijos_dos_servicios {
         @include hijos (20px, 200, $color-portafolio, 600px, 350px, $color-fondo, 0px);
         padding: 32px;
     }
+
     .textos_servicios {
         list-style: none;
         color: $color-portafolio;
@@ -282,39 +315,44 @@ footer{
         font-size: 25px;
     }
 
-    @media screen and (min-width: 360px) and (max-width: 740px){
+    @media screen and (min-width: 360px) and (max-width: 740px) {
         .hijos_uno_servicios {
             padding: 24px;
-        }  
+        }
+
         .hijos_dos_servicios {
             padding: 24px;
-            height: 980px; 
+            height: 980px;
         }
-    }  
+    }
 }
 
 /*Estilos page CONTACTO*/
 .contenedor_uno_contacto {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
+
     .hijos_uno_contacto {
         @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/contacto.jpg), 0px);
         padding: 32px;
     }
+
     .hijos_dos_contacto {
         @include hijos (20px, 200, $color-portafolio, 660px, 400px, $color-fondo, 0px);
     }
-
-    @media screen and (min-width: 360px) and (max-width: 740px){
+    .textos_contacto .textos_contenido {
+        font-weight: 400
+    }
+    @media screen and (min-width: 360px) and (max-width: 740px) {
         .hijos_uno_contacto {
             padding: 24px;
-        }  
+        }
+
         .hijos_dos_contacto {
             padding: 24px;
             height: 500px;
-            padding: 32px; 
         }
-    } 
+    }
 }
 
 .contenedor_dos_contacto {
@@ -334,48 +372,81 @@ footer{
         padding: 32px;
     }
     .titulo_formulario {
-        @extend %formulario;;
+        @extend %formulario;
+        ;
         width: 200px;
         height: 35px;
         margin: 20px 140px;
         text-align: center;
         font-size: 35px;
-        font-weight: 400;
         padding: 32px;
-        }
-}
-
-.formulario_completo .botones {
-    height: 150px;
-    padding: 50px 82px 20px 82px;
-}
-
-.formulario_completo .botones .btn.btn-dark {
-    width: 150px;
-    padding: 10px;
-    margin: 20px;
-}
-
-.formulario_completo .botones .btn.btn-secondary {
-    width: 150px;
-    padding: 10px;
-    margin: 20px;
-}
-
-
-
-@media screen and (min-width: 360px) and (max-width: 740px){
-    .contenedor_dos_contacto{
-        height: 300px;
-    .hijos_tres_contacto {
-        height: 100px; 
-        width: 180px;
-        box-sizing: content-box;
-        padding: 0;
     }
-    .textos_contacto{
+}
+
+.formulario_completo {
+
+    .botones {
+        height: 150px;
+        padding: 50px 82px 20px 82px;
+    }
+    .botones .btn.btn-dark {
+        width: 150px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .botones .btn.btn-secondary {
+        width: 150px;
+        padding: 10px;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_dos_contacto {
+        height: 360px;
         width: 360px;
+        margin: 0 0 40px 0;
+        .hijos_tres_contacto {
+            height: 100px;
+            width: 180px;
+            box-sizing: content-box;
+            padding: 0;
+            .mensaje_form {
+                width: 200px;
+                height: 75px;
+                .label {
+                    width: 300px;
+                    height: 70px;
+                }
+            }
+        }
     }
 
-} 
+    .textos_contacto {
+        width: 360px;
+
+        .textos_contenido {
+            width: 330px;
+        }
+    }
+
+    .formulario_completo {
+        .botones {
+            height: 230px;
+            width: 360px;
+            padding: 30px 40px 30px 60px;
+        }
+
+        .botones .btn.btn-dark {
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .botones .btn.btn-secondary {
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+        }
+    }
 }

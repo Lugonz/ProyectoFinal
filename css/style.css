@@ -372,13 +372,14 @@ footer {
     height: 400px;
     background-image: #a2a2a2;
     margin: 0px; }
+  .contenedor_uno_contacto .textos_contacto .textos_contenido {
+    font-weight: 400; }
   @media screen and (min-width: 360px) and (max-width: 740px) {
     .contenedor_uno_contacto .hijos_uno_contacto {
       padding: 24px; }
     .contenedor_uno_contacto .hijos_dos_contacto {
       padding: 24px;
-      height: 500px;
-      padding: 32px; } }
+      height: 500px; } }
 
 .contenedor_dos_contacto {
   height: 100%;
@@ -405,7 +406,6 @@ footer {
     margin: 20px 140px;
     text-align: center;
     font-size: 35px;
-    font-weight: 400;
     padding: 32px; }
 
 .formulario_completo .botones {
@@ -424,11 +424,33 @@ footer {
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
   .contenedor_dos_contacto {
-    height: 300px; }
+    height: 360px;
+    width: 360px;
+    margin: 0 0 40px 0; }
     .contenedor_dos_contacto .hijos_tres_contacto {
       height: 100px;
       width: 180px;
       box-sizing: content-box;
       padding: 0; }
-    .contenedor_dos_contacto .textos_contacto {
-      width: 360px; } }
+      .contenedor_dos_contacto .hijos_tres_contacto .mensaje_form {
+        width: 200px;
+        height: 75px; }
+        .contenedor_dos_contacto .hijos_tres_contacto .mensaje_form .label {
+          width: 300px;
+          height: 70px; }
+  .textos_contacto {
+    width: 360px; }
+    .textos_contacto .textos_contenido {
+      width: 330px; }
+  .formulario_completo .botones {
+    height: 230px;
+    width: 360px;
+    padding: 30px 40px 30px 60px; }
+  .formulario_completo .botones .btn.btn-dark {
+    width: 200px;
+    padding: 10px;
+    margin: 20px; }
+  .formulario_completo .botones .btn.btn-secondary {
+    width: 200px;
+    padding: 10px;
+    margin: 20px; } }
