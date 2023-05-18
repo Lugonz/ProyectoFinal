@@ -22,7 +22,7 @@ body {
     text-align: justify;
     color: #3e3e4b;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     border: 50px;
     margin: 30px 30px;
     font-family: 'Inter', sans-serif; }
@@ -269,7 +269,8 @@ footer {
     list-style: none;
     color: #121113;
     text-align: inherit;
-    font-size: 25px; }
+    font-size: 25px;
+    font-weight: 400; }
 
 /*Estilos page CONTACTO*/
 .formulario_completo .titulo_formulario .subtitulos2 {
