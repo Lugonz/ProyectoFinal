@@ -53,6 +53,7 @@ body {
         font-family: 'Inter', sans-serif;
         font-size: 20px; 
         font-weight: 200;
+        padding: 12px;
     }
 }
 
@@ -104,7 +105,6 @@ footer{
 }
 
 
-
 /*Etilos page Home*/
 
 
@@ -137,27 +137,56 @@ footer{
    
     .hijos_uno_diseno {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/fureru_app.jpg), 0px); 
+    padding: 32px;
    }  
    .hijos_dos_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wikipedia.jpg), 0px); 
+    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wikipedia.jpg), 0px);
+    padding: 32px; 
    }
    .hijos_tres_diseno {
     @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/momento_yogurt.jpg), 0px);
+    padding: 32px;
    }
    .hijos_cuatro_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/uber_recycler.jpg), 0px); 
+    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/uber_recycler.jpg), 0px);
+    padding: 32px; 
    }
    .hijos_cinco_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/banco_agrario.jpg), 0px); 
+    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/banco_agrario.jpg), 0px);
+    padding: 32px; 
    }
    .hijos_seis_diseno {
-    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wespu.jpg), 0px) 
+    @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/wespu.jpg), 0px);
+    padding: 32px; 
    }
    .textos_diseno {
        list-style: none;
        color: $color-portafolio;
        font-size: 25px;
+       font-weight: 400;
    }
+
+   @media screen and (min-width: 360px) and (max-width: 740px){
+    .hijos_uno_diseno {
+        padding: 24px; 
+    }  
+    .hijos_dos_diseno {
+        padding: 24px; 
+    }
+    .hijos_tres_diseno {
+        padding: 24px; 
+    }
+    .hijos_cuatro_diseno {
+        padding: 24px; 
+    }
+    .hijos_cinco_diseno {
+        padding: 24px; 
+    }
+    .hijos_seis_diseno {
+        padding: 24px; 
+    }
+    
+}
 }
 
 /*Estilos page ARTE*/
@@ -165,42 +194,73 @@ footer{
     @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
 
     .hijos_uno_arte {
-        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/emociones_abstractas.jpg), 0px); 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/emociones_abstractas.jpg), 0px);
+        padding: 32px;  
     }
     .hijos_dos_arte {
-        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/universidades_venezuela.jpg), 0px); 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/universidades_venezuela.jpg), 0px);
+        padding: 32px;  
     }
     .hijos_tres_arte {
-        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_uno.jpg), 0px); 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_uno.jpg), 0px);
+        padding: 32px;  
     }
     .hijos_cuatro_arte {
-        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_dos.jpg), 0px); 
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/oleo_dos.jpg), 0px);
+        padding: 32px;  
     }
     .textos_arte {
         list-style: none;
         color: $color-portafolio;
         font-size: 25px;
+        font-weight: 400;
     }
-
+    
+    @media screen and (min-width: 360px) and (max-width: 740px){
+        .hijos_uno_arte {
+            padding: 24px; 
+        }  
+        .hijos_dos_arte {
+            padding: 24px; 
+        }
+        .hijos_tres_arte {
+            padding: 24px; 
+        }
+        .hijos_cuatro_arte {
+            padding: 24px; 
+        }
+    }  
 }
-
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
     @include contenedores(100%, $color-fondo, flex, row, 40px, wrap, first baseline);
     align-items: center;
     .hijos_uno_sobremi {
-        @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/sobreMi.jpg), 0px);    
+        @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/sobreMi.jpg), 0px);
+        padding: 32px;      
     }
     .hijos_dos_sobremi {
-        @include hijos (20px, 200, $color-portafolio, 600px, 350px, $color-fondo, 0px); 
+        @include hijos (20px, 200, $color-portafolio, 600px, 350px, $color-fondo, 0px);
+        padding: 32px;   
     }
     .textos_sobremi {
         list-style: none;
         color: $color-portafolio;
         text-align: inherit;
         font-size: 25px;
+        font-weight: 400;
     }
+
+    @media screen and (min-width: 360px) and (max-width: 740px){
+        .hijos_uno_sobremi {
+            padding: 24px;
+        }  
+        .hijos_dos_sobremi {
+            padding: 24px;
+            height: 680px; 
+        }
+    }  
 }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
@@ -209,9 +269,11 @@ footer{
     align-items: center;
     .hijos_uno_servicios {
         @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/servicios.jpg), 0px);
+        padding: 32px;
     }  
     .hijos_dos_servicios {
         @include hijos (20px, 200, $color-portafolio, 600px, 350px, $color-fondo, 0px);
+        padding: 32px;
     }
     .textos_servicios {
         list-style: none;
@@ -219,6 +281,16 @@ footer{
         text-align: inherit;
         font-size: 25px;
     }
+
+    @media screen and (min-width: 360px) and (max-width: 740px){
+        .hijos_uno_servicios {
+            padding: 24px;
+        }  
+        .hijos_dos_servicios {
+            padding: 24px;
+            height: 980px; 
+        }
+    }  
 }
 
 /*Estilos page CONTACTO*/
@@ -227,10 +299,22 @@ footer{
     align-items: center;
     .hijos_uno_contacto {
         @include hijos (20px, 200, $color-portafolio, 430px, 532px, url(../img/contacto.jpg), 0px);
+        padding: 32px;
     }
     .hijos_dos_contacto {
         @include hijos (20px, 200, $color-portafolio, 660px, 400px, $color-fondo, 0px);
     }
+
+    @media screen and (min-width: 360px) and (max-width: 740px){
+        .hijos_uno_contacto {
+            padding: 24px;
+        }  
+        .hijos_dos_contacto {
+            padding: 24px;
+            height: 500px;
+            padding: 32px; 
+        }
+    } 
 }
 
 .contenedor_dos_contacto {
@@ -247,6 +331,7 @@ footer{
         color: $color-portafolio;
         width: 45%;
         height: 150px;
+        padding: 32px;
     }
     .titulo_formulario {
         @extend %formulario;;
@@ -255,7 +340,18 @@ footer{
         margin: 20px 140px;
         text-align: center;
         font-size: 35px;
+        padding: 32px;
         }
 }
 
+@media screen and (min-width: 360px) and (max-width: 740px){
+    .contenedor_dos_contacto{
+        height: 500px;
+    }
+    .hijos_tres_contacto {
+        padding: 24px;
+        height: 100px; 
+        box-sizing: content-box;
+    }
+} 
 

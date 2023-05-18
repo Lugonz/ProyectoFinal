@@ -45,7 +45,8 @@ body {
   body .navbar {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    font-weight: 200; }
+    font-weight: 200;
+    padding: 12px; }
 
 /*Estilos Footer*/
 footer {
@@ -137,7 +138,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/fureru_app.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_diseno .hijos_dos_diseno {
     font-size: 20px;
     font-weight: 200;
@@ -145,7 +147,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/wikipedia.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_diseno .hijos_tres_diseno {
     font-size: 20px;
     font-weight: 200;
@@ -153,7 +156,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/momento_yogurt.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_diseno .hijos_cuatro_diseno {
     font-size: 20px;
     font-weight: 200;
@@ -161,7 +165,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/uber_recycler.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_diseno .hijos_cinco_diseno {
     font-size: 20px;
     font-weight: 200;
@@ -169,7 +174,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/banco_agrario.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_diseno .hijos_seis_diseno {
     font-size: 20px;
     font-weight: 200;
@@ -177,11 +183,26 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/wespu.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_diseno .textos_diseno {
     list-style: none;
     color: #121113;
-    font-size: 25px; }
+    font-size: 25px;
+    font-weight: 400; }
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_uno_diseno .hijos_uno_diseno {
+      padding: 24px; }
+    .contenedor_uno_diseno .hijos_dos_diseno {
+      padding: 24px; }
+    .contenedor_uno_diseno .hijos_tres_diseno {
+      padding: 24px; }
+    .contenedor_uno_diseno .hijos_cuatro_diseno {
+      padding: 24px; }
+    .contenedor_uno_diseno .hijos_cinco_diseno {
+      padding: 24px; }
+    .contenedor_uno_diseno .hijos_seis_diseno {
+      padding: 24px; } }
 
 /*Estilos page ARTE*/
 .contenedor_uno_arte {
@@ -199,7 +220,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/emociones_abstractas.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_arte .hijos_dos_arte {
     font-size: 20px;
     font-weight: 200;
@@ -207,7 +229,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/universidades_venezuela.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_arte .hijos_tres_arte {
     font-size: 20px;
     font-weight: 200;
@@ -215,7 +238,8 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/oleo_uno.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_arte .hijos_cuatro_arte {
     font-size: 20px;
     font-weight: 200;
@@ -223,11 +247,22 @@ footer {
     width: 660px;
     height: 532px;
     background-image: url(../img/oleo_dos.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_arte .textos_arte {
     list-style: none;
     color: #121113;
-    font-size: 25px; }
+    font-size: 25px;
+    font-weight: 400; }
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_uno_arte .hijos_uno_arte {
+      padding: 24px; }
+    .contenedor_uno_arte .hijos_dos_arte {
+      padding: 24px; }
+    .contenedor_uno_arte .hijos_tres_arte {
+      padding: 24px; }
+    .contenedor_uno_arte .hijos_cuatro_arte {
+      padding: 24px; } }
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
@@ -246,7 +281,8 @@ footer {
     width: 430px;
     height: 532px;
     background-image: url(../img/sobreMi.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_sobremi .hijos_dos_sobremi {
     font-size: 20px;
     font-weight: 200;
@@ -254,12 +290,20 @@ footer {
     width: 600px;
     height: 350px;
     background-image: #a2a2a2;
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_sobremi .textos_sobremi {
     list-style: none;
     color: #121113;
     text-align: inherit;
-    font-size: 25px; }
+    font-size: 25px;
+    font-weight: 400; }
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_uno_sobremi .hijos_uno_sobremi {
+      padding: 24px; }
+    .contenedor_uno_sobremi .hijos_dos_sobremi {
+      padding: 24px;
+      height: 680px; } }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
 .contenedor_uno_servicios {
@@ -278,7 +322,8 @@ footer {
     width: 430px;
     height: 532px;
     background-image: url(../img/servicios.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_servicios .hijos_dos_servicios {
     font-size: 20px;
     font-weight: 200;
@@ -286,12 +331,19 @@ footer {
     width: 600px;
     height: 350px;
     background-image: #a2a2a2;
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_servicios .textos_servicios {
     list-style: none;
     color: #121113;
     text-align: inherit;
     font-size: 25px; }
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_uno_servicios .hijos_uno_servicios {
+      padding: 24px; }
+    .contenedor_uno_servicios .hijos_dos_servicios {
+      padding: 24px;
+      height: 980px; } }
 
 /*Estilos page CONTACTO*/
 .contenedor_uno_contacto {
@@ -310,7 +362,8 @@ footer {
     width: 430px;
     height: 532px;
     background-image: url(../img/contacto.jpg);
-    margin: 0px; }
+    margin: 0px;
+    padding: 32px; }
   .contenedor_uno_contacto .hijos_dos_contacto {
     font-size: 20px;
     font-weight: 200;
@@ -319,6 +372,13 @@ footer {
     height: 400px;
     background-image: #a2a2a2;
     margin: 0px; }
+  @media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_uno_contacto .hijos_uno_contacto {
+      padding: 24px; }
+    .contenedor_uno_contacto .hijos_dos_contacto {
+      padding: 24px;
+      height: 500px;
+      padding: 32px; } }
 
 .contenedor_dos_contacto {
   height: 100%;
@@ -337,10 +397,20 @@ footer {
   .contenedor_dos_contacto .hijos_tres_contacto {
     color: #121113;
     width: 45%;
-    height: 150px; }
+    height: 150px;
+    padding: 32px; }
   .contenedor_dos_contacto .titulo_formulario {
     width: 200px;
     height: 35px;
     margin: 20px 140px;
     text-align: center;
-    font-size: 35px; }
+    font-size: 35px;
+    padding: 32px; }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .contenedor_dos_contacto {
+    height: 500px; }
+  .hijos_tres_contacto {
+    padding: 24px;
+    height: 100px;
+    box-sizing: content-box; } }
