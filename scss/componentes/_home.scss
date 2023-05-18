@@ -1,0 +1,24 @@
+/*Etilos page Home*/
+
+.contenedor_uno_home {
+    @include contenedores(100%, $color-fondo, flex, row, 0px, wrap, center);
+
+    /* estilos de los hijos */
+    .hijos_uno_home {
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/diseno_uno.jpg), 0px);
+    }
+
+    .hijos_dos_home {
+        @include hijos (20px, 200, $color-portafolio, 660px, 532px, url(../img/arte.jpg), 0px);
+    }
+
+    .textos {
+        list-style: none;
+        text-align: inherit;
+        font-weight: 300;
+        border: 50px;
+        padding: 10px 10px;
+        font-size: 25px;
+    }
+}
+

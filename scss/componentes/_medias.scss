@@ -1,0 +1,152 @@
+//Media querie FOOTER//
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    footer {
+        height: 190px;
+        padding: 0px 15px 20px 15px;
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+//Media querie PAGE DISEÑO//
+
+.contenedor_uno_diseno {
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+        .hijos_uno_diseno {
+            padding: 24px;
+        }
+        .hijos_dos_diseno {
+            padding: 24px;
+        }
+        .hijos_tres_diseno {
+            padding: 24px;
+        }
+        .hijos_cuatro_diseno {
+            padding: 24px;
+        }
+        .hijos_cinco_diseno {
+            padding: 24px;
+        }
+        .hijos_seis_diseno {
+            padding: 24px;
+        }
+    }
+}
+
+//Media querie PAGE ARTE//
+
+.contenedor_uno_arte {
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+        .hijos_uno_arte {
+            padding: 24px;
+        }
+
+        .hijos_dos_arte {
+            padding: 24px;
+        }
+
+        .hijos_tres_arte {
+            padding: 24px;
+        }
+
+        .hijos_cuatro_arte {
+            padding: 24px;
+        }
+    }
+}
+
+//Media querie PAGE SOBRE MI//
+
+.contenedor_uno_sobremi {
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+        .hijos_uno_sobremi {
+            padding: 24px;
+        }
+
+        .hijos_dos_sobremi {
+            padding: 24px;
+            height: 680px;
+        }
+    }
+}
+
+//Media querie PAGE SERVICIOS PROFESIONALES//
+
+.contenedor_uno_servicios {
+
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+        .hijos_uno_servicios {
+            padding: 24px;
+        }
+
+        .hijos_dos_servicios {
+            padding: 24px;
+            height: 980px;
+        }
+    }
+}
+
+//Media querie PAGE CONTACTO//
+
+.contenedor_uno_contacto {    
+    @media screen and (min-width: 360px) and (max-width: 740px) {
+        .hijos_uno_contacto {
+            padding: 24px;
+        }
+
+        .hijos_dos_contacto {
+            padding: 24px;
+            height: 500px;
+        }
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    .contenedor_dos_contacto {
+        height: 360px;
+        width: 360px;
+        margin: 0 0 40px 0;
+
+        .hijos_tres_contacto {
+            height: 100px;
+            width: 180px;
+            box-sizing: content-box;
+            padding: 0;
+
+            .mensaje_form {
+                width: 200px;
+                height: 75px;
+
+                .label {
+                    width: 300px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+
+    .textos_contacto {
+        width: 360px;
+        .textos_contenido {
+            width: 330px;
+        }
+    }
+    .formulario_completo {
+        .botones {
+            height: 230px;
+            width: 360px;
+            padding: 30px 40px 30px 60px;
+        }
+        .botones .btn.btn-dark {
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+        }
+        .botones .btn.btn-secondary {
+            width: 200px;
+            padding: 10px;
+            margin: 20px;
+        }
+    }
+}
+

@@ -1,17 +1,17 @@
 @charset "UTF-8";
+.contenedor_dos_contacto .hijos_tres_contacto, .contenedor_dos_contacto .titulo_formulario {
+  font-size: 20px;
+  font-weight: 200; }
+
 /*Reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-.contenedor_dos_contacto .hijos_tres_contacto, .contenedor_dos_contacto .titulo_formulario {
-  font-size: 20px;
-  font-weight: 200; }
-
+/*Estilos generales*/
 /*Estilos*/
 /*Los estilos del Header son importados de bootstrap*/
-/*Estilos generales*/
 body {
   background-color: #a2a2a2;
   height: 100%;
@@ -82,47 +82,7 @@ footer {
     font-size: 16px;
     font-weight: 300; }
 
-@media screen and (min-width: 360px) and (max-width: 740px) {
-  footer {
-    height: 190px;
-    padding: 0px 15px 20px 15px;
-    font-family: 'Inter', sans-serif; } }
-
-/*Etilos page Home*/
-.contenedor_uno_home {
-  height: 100%;
-  background-color: #a2a2a2;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* estilos de los hijos */ }
-  .contenedor_uno_home .hijos_uno_home {
-    font-size: 20px;
-    font-weight: 200;
-    color: #121113;
-    width: 660px;
-    height: 532px;
-    background-image: url(../img/diseno_uno.jpg);
-    margin: 0px; }
-  .contenedor_uno_home .hijos_dos_home {
-    font-size: 20px;
-    font-weight: 200;
-    color: #121113;
-    width: 660px;
-    height: 532px;
-    background-image: url(../img/arte.jpg);
-    margin: 0px; }
-  .contenedor_uno_home .textos {
-    list-style: none;
-    text-align: inherit;
-    font-weight: 300;
-    border: 50px;
-    padding: 10px 10px;
-    font-size: 25px; }
-
-/*Etilos page DISEÑO*/
+/*Estilos page DISEÑO */
 .contenedor_uno_diseno {
   height: 100%;
   background-color: #a2a2a2;
@@ -190,19 +150,6 @@ footer {
     color: #121113;
     font-size: 25px;
     font-weight: 400; }
-  @media screen and (min-width: 360px) and (max-width: 740px) {
-    .contenedor_uno_diseno .hijos_uno_diseno {
-      padding: 24px; }
-    .contenedor_uno_diseno .hijos_dos_diseno {
-      padding: 24px; }
-    .contenedor_uno_diseno .hijos_tres_diseno {
-      padding: 24px; }
-    .contenedor_uno_diseno .hijos_cuatro_diseno {
-      padding: 24px; }
-    .contenedor_uno_diseno .hijos_cinco_diseno {
-      padding: 24px; }
-    .contenedor_uno_diseno .hijos_seis_diseno {
-      padding: 24px; } }
 
 /*Estilos page ARTE*/
 .contenedor_uno_arte {
@@ -254,15 +201,6 @@ footer {
     color: #121113;
     font-size: 25px;
     font-weight: 400; }
-  @media screen and (min-width: 360px) and (max-width: 740px) {
-    .contenedor_uno_arte .hijos_uno_arte {
-      padding: 24px; }
-    .contenedor_uno_arte .hijos_dos_arte {
-      padding: 24px; }
-    .contenedor_uno_arte .hijos_tres_arte {
-      padding: 24px; }
-    .contenedor_uno_arte .hijos_cuatro_arte {
-      padding: 24px; } }
 
 /*Estilos page SOBRE MI*/
 .contenedor_uno_sobremi {
@@ -298,12 +236,6 @@ footer {
     text-align: inherit;
     font-size: 25px;
     font-weight: 400; }
-  @media screen and (min-width: 360px) and (max-width: 740px) {
-    .contenedor_uno_sobremi .hijos_uno_sobremi {
-      padding: 24px; }
-    .contenedor_uno_sobremi .hijos_dos_sobremi {
-      padding: 24px;
-      height: 680px; } }
 
 /*Estilos page SERVICIOS PROFESIONALES*/
 .contenedor_uno_servicios {
@@ -338,12 +270,6 @@ footer {
     color: #121113;
     text-align: inherit;
     font-size: 25px; }
-  @media screen and (min-width: 360px) and (max-width: 740px) {
-    .contenedor_uno_servicios .hijos_uno_servicios {
-      padding: 24px; }
-    .contenedor_uno_servicios .hijos_dos_servicios {
-      padding: 24px;
-      height: 980px; } }
 
 /*Estilos page CONTACTO*/
 .contenedor_uno_contacto {
@@ -374,12 +300,6 @@ footer {
     margin: 0px; }
   .contenedor_uno_contacto .textos_contacto .textos_contenido {
     font-weight: 400; }
-  @media screen and (min-width: 360px) and (max-width: 740px) {
-    .contenedor_uno_contacto .hijos_uno_contacto {
-      padding: 24px; }
-    .contenedor_uno_contacto .hijos_dos_contacto {
-      padding: 24px;
-      height: 500px; } }
 
 .contenedor_dos_contacto {
   height: 100%;
@@ -421,6 +341,91 @@ footer {
   width: 150px;
   padding: 10px;
   margin: 20px; }
+
+/*Etilos page Home*/
+.contenedor_uno_home {
+  height: 100%;
+  background-color: #a2a2a2;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* estilos de los hijos */ }
+  .contenedor_uno_home .hijos_uno_home {
+    font-size: 20px;
+    font-weight: 200;
+    color: #121113;
+    width: 660px;
+    height: 532px;
+    background-image: url(../img/diseno_uno.jpg);
+    margin: 0px; }
+  .contenedor_uno_home .hijos_dos_home {
+    font-size: 20px;
+    font-weight: 200;
+    color: #121113;
+    width: 660px;
+    height: 532px;
+    background-image: url(../img/arte.jpg);
+    margin: 0px; }
+  .contenedor_uno_home .textos {
+    list-style: none;
+    text-align: inherit;
+    font-weight: 300;
+    border: 50px;
+    padding: 10px 10px;
+    font-size: 25px; }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  footer {
+    height: 190px;
+    padding: 0px 15px 20px 15px;
+    font-family: 'Inter', sans-serif; } }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .contenedor_uno_diseno .hijos_uno_diseno {
+    padding: 24px; }
+  .contenedor_uno_diseno .hijos_dos_diseno {
+    padding: 24px; }
+  .contenedor_uno_diseno .hijos_tres_diseno {
+    padding: 24px; }
+  .contenedor_uno_diseno .hijos_cuatro_diseno {
+    padding: 24px; }
+  .contenedor_uno_diseno .hijos_cinco_diseno {
+    padding: 24px; }
+  .contenedor_uno_diseno .hijos_seis_diseno {
+    padding: 24px; } }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .contenedor_uno_arte .hijos_uno_arte {
+    padding: 24px; }
+  .contenedor_uno_arte .hijos_dos_arte {
+    padding: 24px; }
+  .contenedor_uno_arte .hijos_tres_arte {
+    padding: 24px; }
+  .contenedor_uno_arte .hijos_cuatro_arte {
+    padding: 24px; } }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .contenedor_uno_sobremi .hijos_uno_sobremi {
+    padding: 24px; }
+  .contenedor_uno_sobremi .hijos_dos_sobremi {
+    padding: 24px;
+    height: 680px; } }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .contenedor_uno_servicios .hijos_uno_servicios {
+    padding: 24px; }
+  .contenedor_uno_servicios .hijos_dos_servicios {
+    padding: 24px;
+    height: 980px; } }
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  .contenedor_uno_contacto .hijos_uno_contacto {
+    padding: 24px; }
+  .contenedor_uno_contacto .hijos_dos_contacto {
+    padding: 24px;
+    height: 500px; } }
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
   .contenedor_dos_contacto {
