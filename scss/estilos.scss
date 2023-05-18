@@ -346,12 +346,16 @@ footer{
 
 @media screen and (min-width: 360px) and (max-width: 740px){
     .contenedor_dos_contacto{
-        height: 500px;
-    }
+        height: 300px;
     .hijos_tres_contacto {
-        padding: 24px;
         height: 100px; 
+        width: 180px;
         box-sizing: content-box;
+        padding: 0;
     }
-} 
+    .textos_contacto{
+        width: 360px;
+    }
 
+} 
+}
